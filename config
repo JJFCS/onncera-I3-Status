@@ -1,0 +1,15 @@
+general {
+	colors   = true
+	interval = 5
+}
+
+order += "volume information"
+order += "tztime local"
+
+tztime local {
+	format = "%Y-%m-%d %H:%M:%S "
+}
+
+volume information {
+	format = "VOL = %volume"
+}
